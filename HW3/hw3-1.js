@@ -19,7 +19,7 @@ var findMinHw = function(scores) {
 	return scores;
 };
 
-MongoClient.connect('mongodb://localhost:27017/www', function(err, db) {
+MongoClient.connect('mongodb://localhost:27017/school', function(err, db) {
 	if(err) throw err;
 	
 	var Students = db.collection('students');
